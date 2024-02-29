@@ -132,8 +132,6 @@ export class PaymentRequest {
     }
 
     private handleAccept(details: string): AndroidPaymentResponse | IosPaymentResponse {
-        console.log("details")
-        console.log(details)
         try {
             return isAndroid
                 ? new AndroidPaymentResponse(this.id, PaymentMethodNameEnum.AndroidPay, details)
