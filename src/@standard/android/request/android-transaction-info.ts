@@ -12,6 +12,6 @@ export interface AndroidTransactionInfo {
 
 export const defaultAndroidTransactionInfo: AndroidTransactionInfo = {
     currencyCode: '',
-    totalPriceStatus: 'FINAL',
+    totalPriceStatus: 'ESTIMATED',
     totalPrice: '',
 };
